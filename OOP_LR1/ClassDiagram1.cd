@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOP_LR1.Bank">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAEAgAAAAAAAAAAAAECQAAAAAAEAAABBCAAFAQAA=</HashCode>
+      <FileName>Bank.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_allBranches" />
+      <Field Name="_allClients" />
+      <Field Name="_atms" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="OOP_LR1.Branch">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQEAAAAAAAAAAAACBAAAACAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Branch.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Employees" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="OOP_LR1.Client">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECAAAAAACIAggAAAAABAAAAAQEAAgAAAQkAAQAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="account" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OOP_LR1.ATM">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAQAAAAACAAQEAAAIAAAAAAQAA=</HashCode>
+      <FileName>ATM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LR1.Employee">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAIAgAAAAAAAAAAAAAEAAAAAAAAACAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LR1.Account">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAAAAEAAAAAAAAAAAAAgAAFAAABCAAAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_listOfCards" />
+      <Field Name="_listOfLoans" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="OOP_LR1.Card">
+    <Position X="16.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAEAgGBAAAAgACAAAQAAAAgAABQBCAAAAQAA=</HashCode>
+      <FileName>Card.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_allExisitingCard" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="OOP_LR1.Loan">
+    <Position X="19" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAhAAAAAAAAAAAAAAIAABQAAAAAAA=</HashCode>
+      <FileName>Loan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LR1.SupportSystem">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LR1.Transaction">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAgAgAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SenderCard" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
